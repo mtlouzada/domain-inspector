@@ -1,9 +1,9 @@
 
-# Desafio Umbler
+# Desafio Tecnico
 
 Esta é uma aplicação web que recebe um domínio e mostra suas informações de DNS.
 
-Este é um exemplo real de sistema que utilizamos na Umbler.
+Este é um exemplo real de sistema que utilizamos na Empresa.
 
 Ex: Consultar os dados de registro do dominio `umbler.com`
 
@@ -88,7 +88,7 @@ Se você rodar o projeto e testar um domínio, verá que ele já está funcionan
 # Entrega
 
 - Enviei o link do seu repositório com o código atualizado.
-- O repositório deve estar público para que possamos acessar..
+- O repositório deve estar público.
 - Modifique Este readme adicionando informações sobre os motivos das mudanças realizadas.
 
 # Modificações:
