@@ -1,24 +1,21 @@
+# Domain Inspector
 
-# Desafio Tecnico
+Domain Inspector é uma API web que permite consultar e consolidar informações de DNS e WHOIS de um domínio.
 
-Esta é uma aplicação web que recebe um domínio e mostra suas informações de DNS.
+O projeto foi desenvolvido com foco em separação de responsabilidades, testabilidade e integração com serviços externos, servindo como um estudo de caso prático em .NET.
 
-Este é um exemplo real de sistema que utilizamos na Empresa.
+Exemplo de uso: consulta de dados do domínio `example.com`
 
-Ex: Consultar os dados de registro do dominio `umbler.com`
+**Informações retornadas:**
+- Name Servers
+- Registro A (endereço IP)
+- Dados de hospedagem do domínio
 
-**Retorno:**
-- Name servers (ns254.umbler.com)
-- IP do registro A (177.55.66.99)
-- Empresa que está hospedado (Umbler)
+As informações são obtidas através de consultas a servidores DNS e ao protocolo WHOIS.
 
-Essas informações são descobertas através de consultas nos servidores DNS e de WHOIS.
+*WHOIS é um protocolo utilizado para obter informações de registro e contato associadas a domínios.*
 
-*Obs: WHOIS (pronuncia-se "ruís") é um protocolo específico para consultar informações de contato e DNS de domínios na internet.*
-
-Nesta aplicação, os dados obtidos são salvos em um banco de dados, evitando uma segunda consulta desnecessaria, caso seu TTL ainda não tenha expirado.
-
-*Obs: O TTL é um valor em um registro DNS que determina o número de segundos antes que alterações subsequentes no registro sejam efetuadas. Ou seja, usamos este valor para determinar quando uma informação está velha e deve ser renovada.*
+Os dados consultados são persistidos em banco de dados e reutilizados enquanto o TTL estiver válido, evitando consultas desnecessárias e melhorando a performance da aplicação.
 
 Tecnologias Backend utilizadas:
 
