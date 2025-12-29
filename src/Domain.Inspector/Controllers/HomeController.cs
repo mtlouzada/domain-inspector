@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Desafio.Umbler.Models;
 
-namespace Desafio.Umbler.Controllers
+namespace Domain.Inspector.Controllers
 {
     public class HomeController : Controller
     {

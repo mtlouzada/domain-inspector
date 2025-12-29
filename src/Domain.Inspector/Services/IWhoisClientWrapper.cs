@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Desafio.Umbler.Services
+namespace Domain.Inspector.Services
 {
     public interface IWhoisClientWrapper
     {

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Desafio.Umbler.Models;
+using Domain.Inspector.Models;
 
-namespace Desafio.Umbler.Services
+namespace Domain.Inspector.Services
 {
     public interface IDomainService
     {

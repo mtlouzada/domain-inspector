@@ -1,11 +1,11 @@
-﻿using Desafio.Umbler.Models;
+﻿using Domain.Inspector.Models;
 using DnsClient;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Desafio.Umbler.Services
+namespace Domain.Inspector.Services
 {
     public class DomainService : IDomainService
     {

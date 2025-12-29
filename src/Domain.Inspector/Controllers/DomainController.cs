@@ -1,9 +1,9 @@
-﻿using Desafio.Umbler.Dtos;
-using Desafio.Umbler.Services;
+﻿using Domain.Inspector.Dtos;
+using Domain.Inspector.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace Desafio.Umbler.Controllers
+namespace Domain.Inspector.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

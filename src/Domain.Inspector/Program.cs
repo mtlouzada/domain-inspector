@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
-namespace Desafio.Umbler
+namespace Domain.Inspector
 {
     public class Program
     {

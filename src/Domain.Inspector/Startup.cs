@@ -1,6 +1,6 @@
 ﻿using System;
-using Desafio.Umbler.Models;
-using Desafio.Umbler.Services;
+using Domain.Inspector.Models;
+using Domain.Inspector.Services;
 using DnsClient;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Desafio.Umbler
+namespace Domain.Inspector
 {
     public class Startup
     {

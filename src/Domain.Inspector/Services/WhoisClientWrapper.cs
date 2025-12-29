@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Whois.NET;
 
-namespace Desafio.Umbler.Services
+namespace Domain.Inspector.Services
 {
     public class WhoisClientWrapper : IWhoisClientWrapper
     {

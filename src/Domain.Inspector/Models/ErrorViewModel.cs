@@ -1,6 +1,6 @@
 using System;
 
-namespace Desafio.Umbler.Models
+namespace Domain.Inspector.Models
 {
     public class ErrorViewModel
     {

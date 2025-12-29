@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Desafio.Umbler.Dtos
+namespace Domain.Inspector.Dtos
 {
     public class DomainResultDto
     {

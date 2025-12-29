@@ -1,6 +1,6 @@
-using Desafio.Umbler.Controllers;
-using Desafio.Umbler.Models;
-using Desafio.Umbler.Services;
+using Domain.Inspector.Controllers;
+using Domain.Inspector.Models;
+using Domain.Inspector.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,9 +8,9 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
 using System.Threading.Tasks;
-using Desafio.Umbler.Dtos;
+using Domain.Inspector.Dtos;
 
-namespace Desafio.Umbler.Test
+namespace Domain.Inspector.Test
 {
     [TestClass]
     public class ControllersTest
@@ -93,7 +93,7 @@ namespace Desafio.Umbler.Test
         {
             var serviceMock = new Mock<IDomainService>();
             serviceMock.Setup(s => s.GetDomainInfoAsync("invalid"))
-                       .ThrowsAsync(new ArgumentException("Domínio inválido"));
+                       .ThrowsAsync(new ArgumentException("Domï¿½nio invï¿½lido"));
 
             var controller = new DomainController(serviceMock.Object);
 
